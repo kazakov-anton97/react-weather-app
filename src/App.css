@@ -1,22 +1,50 @@
-.App {
-  text-align: center;
+header {
+  background: #e5e5e5;
+  padding: 30px 0;
 }
 
-.App-logo {
-  height: 40vmin;
+.basket {
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.basket img { margin-right: 10px; }
+
+a, span { text-decoration: none; }
+
+.form {
+  margin: 10vh auto;
+  width: 600px;
 }
 
-.App-link {
-  color: #09d3ac;
+.outerwear { 
+	display: flex;
+	margin-top: 45px;
+	padding-bottom: 120px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.product {
+	width: 320px;
+	height: 200px;
+}
+
+.photo_item {
+	width: 253px;
+	height: 200px;
+	border: 1px solid #e5e5e5;
+	margin: 0 auto;
+}
+
+.name {
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.add_btn {
+	width: 200px;
+	margin-top: 50px;
+	position: relative;
 }
